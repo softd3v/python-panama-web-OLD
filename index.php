@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Python Panama</title>
+    <title>Python Panama NEW SITE</title>
 
     <meta name="keywords" content="Python Panama" />
     <meta name="description" content="Comunidad Python Panama" />
