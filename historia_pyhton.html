@@ -59,8 +59,93 @@
 <body>
 
     <div class="body">
-        
-        <?php include 'header.php' ?>
+
+        <header id="header" class="header-effect-shrink"
+            data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+            <div class="header-body">
+                <div class="header-container container">
+                    <div class="header-row">
+                        <div class="header-column">
+                            <div class="header-row">
+                                <div class="header-logo">
+                                    <a href="index.php">
+                                        <img alt="Python Panama" width="250" height="55" data-sticky-width="200"
+                                            data-sticky-height="44" src="img/logo.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-column justify-content-end">
+                            <div class="header-row">
+                                <div
+                                    class="header-nav header-nav-line header-nav-top-line header-nav-top-line-with-border order-2 order-lg-1">
+                                    <div
+                                        class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                                        <nav class="collapse">
+                                            <ul class="nav nav-pills" id="mainNav">
+
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle active" href="index.php">
+                                                        Inicio
+                                                    </a>
+                                                </li>
+                                                <!-- <li class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                              Nosotros
+                            </a>
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                              Noticias
+                            </a>
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                              Blog
+                            </a>
+                          </li> -->
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle" href="contacto.php">
+                                                        Contáctanos
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <button class="btn header-btn-collapse-nav" data-toggle="collapse"
+                                        data-target=".header-nav-main nav">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
+                                </div>
+                                <div class="header-nav-features order-1 order-lg-2">
+                                    <div class="header-nav-feature header-nav-features-social-icons d-inline-flex">
+                                        <ul
+                                            class="header-social-icons social-icons d-none d-sm-block social-icons-clean ml-0">
+                                            <li class="social-icons-facebook">
+                                                <a href="https://www.facebook.com/profile.php?id=100078380970388"
+                                                    target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="social-icons-twitter">
+                                                <a href="https://www.instagram.com/pythonpanama/" target="_blank"
+                                                    title="Instagram"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="social-icons-twitter">
+                                                <a href="https://twitter.com/PythonPanama" target="_blank"
+                                                    title="Telegram"><i class="fab fa-twitter"></i></a>
+                                            <li class="social-icons-discord">
+                                                <a href="https://twitter.com/PythonPanama" target="_blank"
+                                                    title="Discord"><i class="fab fa-discord"></i></a>
+                                            </li>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
 
         <div role="main" class="main">
@@ -151,7 +236,7 @@
                                         </div>
                                         <script type="text/javascript"
                                             src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50faf75173aadc53">
-                                        </script>
+                                            </script>
                                         <!-- AddThis Button END -->
 
                                     </div>
@@ -178,7 +263,62 @@
 
         </div>
 
-        <?php include 'footer.php' ?>
+        <footer id="footer" class="border-0" style="
+          background: url('img/parallax/Img_1920x1000xp_Nv.jpg');
+          background-size: cover;
+          background-position: 0 100%;
+        ">
+            <div class="container py-4">
+                <div class="row justify-content-md-center py-5 mt-3">
+                    <div
+                        class="col-md-12 col-lg-3 d-flex align-items-center justify-content-center justify-content-lg-start mb-5 mb-lg-0">
+                        <a href="index.php"><img src="img/logo-dark.png" alt="Logo" class="img-fluid"
+                                style="max-width: 150px" /></a>
+                    </div>
+                    <div class="col-md-6 col-lg-2 text-center text-lg-left mb-5 mb-lg-0">
+                        <h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">
+                            Paginas
+                        </h5>
+                        <ul class="list list-unstyled">
+                            <!-- <li class="mb-1">
+                <a href="page-services.html" class="link-hover-style-1">Nosotros</a>
+              </li> -->
+                            <!-- <li class="mb-1">
+                <a href="page-services.html" class="link-hover-style-1">Noticias</a>
+              </li> -->
+                            <!-- <li class="mb-1">
+                <a href="page-services.html" class="link-hover-style-1">Blog</a>
+              </li> -->
+                            <li class="mb-1">
+                                <a href="contacto.php" class="link-hover-style-1">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-2 text-center text-lg-left mb-5 mb-lg-0">
+                        <h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">
+                            Enlaces
+                        </h5>
+                        <ul class="list list-unstyled">
+                            <li class="mb-1">
+                                <a href="https://www.python.org/" class="link-hover-style-1">
+                                    Python Sitio Oficial</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright footer-copyright-style-2 background-transparent footer-top-light-border">
+                <div class="container py-2">
+                    <div class="row py-4">
+                        <div class="col d-flex align-items-center justify-content-center mb-4 mb-lg-0">
+                            <p>© Copyright
+                                <?php echo date("Y"); ?>. Todos los derechos reservados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     </div>
 

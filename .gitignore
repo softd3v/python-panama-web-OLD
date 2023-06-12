@@ -1,0 +1,31 @@
+### FOLDERS ##
+ajax/
+img/
+js/
+master/
+php/
+vendor/
+video/
+
+## FILES ##
+*.jpg
+*.png
+*.gif
+*.env
+
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
